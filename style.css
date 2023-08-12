@@ -1,0 +1,136 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+main {
+  
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center;`
+  background-repeat: no-repeat;
+  padding: 20px; /* Add some padding to separate the content from the background */
+}
+
+header {
+  text-align: center;
+  background-color: #090b0d;
+  padding: 20px;
+  color: #db1313;
+}
+
+main {
+  padding: 30px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-family: fantasy;
+  font-style: italic;
+  color: aquamarine;
+}
+
+p {
+  font-size: 25px;
+  line-height: 1.8;
+  color: #f2f5f4;
+  max-width: 800px;
+  margin-bottom: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-style: bold;
+}
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-family: cursive;
+  font-style: italic;
+  color:rgb(69, 31, 209);
+}
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the hero section */
+.hero {
+  position: relative;
+  background-image: url("bgg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.hero-content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Styles for the about section */
+.about {
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.about-image {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+/* Styles for the product section */
+.product {
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.product-video {
+  flex: 1;
+}
+
+.product-video iframe {
+  max-width: 100%;
+}
+
+.product-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+/* Media query for responsive layout */
+@media (max-width: 768px) {
+  .hero-content,
+  .about-content,
+  .product-content {
+    max-width: 90%;
+  }
+}

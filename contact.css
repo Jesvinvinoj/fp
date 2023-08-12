@@ -1,0 +1,133 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #0c0d0d;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  main {
+    /* Set the background image for the main content section */
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;`
+    background-repeat: no-repeat;
+    padding: 20px; /* Add some padding to separate the content from the background */
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: fantasy;
+    font-style: italic;
+    color: aqua;
+  }
+  h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-style: italic;
+    color: rgb(13, 230, 100);
+  }
+  p {
+    font-size: 24px;
+    line-height: 1.8;
+    color: #78baa4;
+    max-width: 800px;
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-weight: bold;
+  }
+  label {
+    font-size: 24px;
+    line-height: 1.8;
+    color: #78baa4;
+    max-width: 800px;
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-weight: bold;
+  }
+  
+  ul {
+    margin-left: 20px;
+    color: #fff;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles for the contact page */
+  .contact-info,
+  .contact-form {
+    margin: 30px 0;
+    max-width: 600px;
+    
+  }
+  
+  .contact-info h2,
+  .contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007BFF;
+    font-family: cursive;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .contact-form form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  .contact-form label {
+    font-size: 18px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
